@@ -1,0 +1,55 @@
+{
+  "name": "Call of Duty: Black Ops II",
+  "id": "CUSA57548",
+  "version": "01.10",
+  "process": "codzm.elf",
+  "mods": [
+    {
+      "name": "God Mode",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00228B31",
+          "on": "90909090909090",
+          "off": "4429B3C4010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00642185",
+          "on": "9090",
+          "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "Max Points (999,999)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01AA4008",
+          "on": "3F420F00",
+          "off": "3F420F00"
+        }
+      ]
+    },
+    {
+      "name": "Points 50,000",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01AA4008",
+          "on": "50C30000",
+          "off": "50C30000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "oSana"
+  ]
+}
